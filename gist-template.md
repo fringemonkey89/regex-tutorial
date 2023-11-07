@@ -25,6 +25,10 @@ We are going to look at Hex values which are composed of 6 numbers or letters
 ## Regex Components
 
 ### Anchors
+Anchors in a regular expression string are the ^ and $, the ^ wil represent the beginning of the string and the $ represent
+the end of the string
+- ^#?([a-f0-9]{6}|[a-f0-9]{3})$
+Everything between the ^ and $ symbols represent what the regex is searching for
 
 ### Quantifiers
 
