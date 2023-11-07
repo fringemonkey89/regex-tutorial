@@ -30,21 +30,13 @@ We are going to look at Hex values which are composed of 6 numbers or letters
 
 ### OR Operator
 
-### Character Classes
-
 ### Flags
 
 ### Grouping and Capturing
 
 ### Bracket Expressions
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+They are used to display which characters will be matched with the regular expression.
+In this example, we have brackets showing we are looking for two strings including characters a-f and 0-9
 
 ## Author
 
