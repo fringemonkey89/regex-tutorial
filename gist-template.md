@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# Validating Hex Value
 
-Introductory paragraph (replace this with your text)
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A regular expression is way of validating a specific peice of text by using a sequence of characters each
+possessing their own principles
+Regular expressions can be used for validating, URLs, HTML, Hexvalues and emails
+We are going to look at Hex values which are composed of 6 numbers or letters
 
 ## Table of Contents
 
