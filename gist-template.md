@@ -29,6 +29,9 @@ We are going to look at Hex values which are composed of 6 numbers or letters
 ### Quantifiers
 
 ### OR Operator
+In this regular expression, the pipe | is acting as an OR operator.
+The OR operator tells the regular expression to look for either {6} OR {3} hex character values.
+-[a-f0-9]{6}|[a-f0-9]{3} the | means that it will be either be 3 or 6 characters
 
 ### Flags
 
