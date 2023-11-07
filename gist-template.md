@@ -31,6 +31,9 @@ the end of the string
 Everything between the ^ and $ symbols represent what the regex is searching for
 
 ### Quantifiers
+The quantifiers will be the {}, ?, *
+In this example, the ? symbol is showing that the # will be followed by 0 or 1 characters
+- ?([a-f0-9]{6}|[a-f0-9]{3}) the quantifier is saying that after the # symbol it will be either 0 or 1 characters
 
 ### OR Operator
 In this regular expression, the pipe | is acting as an OR operator.
@@ -38,6 +41,11 @@ The OR operator tells the regular expression to look for either {6} OR {3} hex c
 -[a-f0-9]{6}|[a-f0-9]{3} the | means that it will be either be 3 or 6 characters
 
 ### Flags
+In regular expressions we used flags for advcanced searching.
+In the hex code value, we have a multi-line flaf by using the ^ and $ symbols at the beginning
+and end of the string.
+This allows the expression to cross multi-lines of code without causing it to break.
+- ^#?([a-f0-9]{6}|[a-f0-9]{3})$ here, we are showing that the hex value could be wrapped into multiple lines
 
 ### Grouping and Capturing
 
